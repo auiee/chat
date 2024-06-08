@@ -2,9 +2,9 @@
     <div class="chatlist"></div>
     <div class="chatsend">
         <div class="chatcode">
+            <button onclick="sendData()">Send</button>
             <input type="text" name="text" placeholder="Text" onkeydown="if(event.keyCode==13){sendData(); return false;}">
             <input type="text" name="name" placeholder="Name">
-            <button onclick="sendData()">Send</button>
         </div>
     </div>
 <script>
